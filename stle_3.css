@@ -1,0 +1,55 @@
+/* Basic reset so browsers stop freelancing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar container */
+.navbar {
+    display: flex; 
+    /* Enables Flexbox for navbar */
+
+    justify-content: space-between; 
+    /* Pushes logo to left, links to right */
+
+    align-items: center; 
+    /* Vertically centers items */
+
+    padding: 15px 30px;
+    background-color: #222;
+    color: white;
+}
+
+/* Navigation links container */
+.nav-links {
+    display: flex;
+    /* Aligns nav items in a row */
+
+    list-style: none;
+    gap: 20px;
+}
+
+/* Card container */
+.card-container {
+    display: flex;
+    /* Enables Flexbox layout */
+
+    justify-content: center;
+    /* Centers cards horizontally */
+
+    flex-wrap: wrap;
+    /* Allows cards to move to next line on small screens */
+
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Individual card */
+.card {
+    background-color: #f4f4f4;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
